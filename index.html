@@ -125,4 +125,17 @@ document.querySelector('meta[property="og:description"]').content=seo.og;
 document.querySelector('meta[property="og:locale"]').content=seo.locale;
 document.querySelector('meta[name="twitter:description"]').content=seo.og;document.querySelectorAll('[data-t]').forEach(e=>{let v=T[l][e.dataset.t];if(v)e.innerHTML=v});document.title=l==='ru'?'DriveMind Baku — Учись думать. Не просто водить.':l==='az'?'DriveMind Baku — Düşünməyi öyrən. Sadəcə sürməyi yox.':'DriveMind Baku — Learn to think. Not just to drive.';document.querySelector('meta[property="og:title"]').content=document.title;document.querySelector('meta[name="twitter:title"]').content=document.title;}
 document.getElementById('lang').addEventListener('change',e=>{window.location.href=e.target.value==='en'?'/':'/'+e.target.value+'/';});document.getElementById('year').textContent=new Date().getFullYear();setLang('en');
-</script></body></html>
+</script><!-- DriveMind WhatsApp conversion tracking -->
+<script>
+// Record a Google Ads conversion when a visitor opens a WhatsApp booking link.
+document.addEventListener('click', function (event) {
+  var link = event.target.closest('a[href]');
+  if (!link || !/^https:\/\/wa\.me\/994105313634(?:[/?#]|$)/i.test(link.href)) return;
+  if (typeof window.gtag === 'function') {
+    window.gtag('event', 'conversion', {
+      'send_to': 'AW-18580725251/zoHvCMzznLodEIO8_ZtF'
+    });
+  }
+});
+</script>
+</body></html>
