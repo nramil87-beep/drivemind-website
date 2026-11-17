@@ -22,6 +22,15 @@
 .brand-logo{display:block;min-width:42px;width:42px;height:42px;object-fit:contain}.brand{gap:12px}.showcase-logo{display:block;max-width:100%;object-fit:contain}@media(max-width:760px){.brand-logo{min-width:36px;width:36px;height:36px}}
 /* Fixed cinematic backdrop across the whole page */
 html{background:#080808}body{background:transparent;position:relative;isolation:isolate}body:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(90deg,rgba(4,5,8,.88),rgba(4,5,8,.55)),url("hero-baku.jpg") center center/cover no-repeat,linear-gradient(130deg,#080808,#21190e)}.hero{background:transparent!important}.section:not(.contact){background:rgba(8,8,8,.76)}.contact{background:rgba(14,11,8,.9)}header{background:rgba(8,8,8,.94)}.tile,.step,.price-card{backdrop-filter:blur(8px)}.brand-logo{width:49px;height:49px;min-width:49px}.showcase-logo{width:235px;height:200px}@media(max-width:760px){body:before{background-position:65% center}.brand-logo{width:39px;height:39px;min-width:39px}.section:not(.contact){background:rgba(8,8,8,.84)}}
+
+/* VIP editorial hero: value first, pricing further down */
+.hero{min-height:calc(100svh - 76px);display:flex;align-items:center}
+.hero .wrap{padding-top:110px;padding-bottom:130px}
+.hero h1{max-width:790px}
+.hero p{max-width:590px}
+#pricing{scroll-margin-top:85px}
+#pricing .pricing-grid{margin-top:45px}
+@media(max-width:760px){.hero{min-height:calc(100svh - 68px)}.hero .wrap{padding-top:80px;padding-bottom:95px}}
 </style></head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#home"><img src="logo.svg?v=8" alt="DriveMind D" class="brand-logo">DRIVE<span class="gold">MIND</span></a><nav><a href="#concept" data-t="nav1">Концепция</a><a href="#method" data-t="nav2">Метод</a><a href="#format" data-t="nav3">Формат</a><a href="#pricing" data-t="nav5">Программы</a><a href="#contact" data-t="nav4">Контакты</a></nav><div class="tools"><select id="lang" aria-label="Language"><option value="ru">RU</option><option value="az">AZ</option><option value="en">EN</option></select><a class="btn" href="#contact" data-t="book">Записаться</a></div></div></header>
