@@ -1,4 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://drivemindbaku.com/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://drivemindbaku.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drivemindbaku.com/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://drivemindbaku.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://drivemindbaku.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drivemindbaku.com/"/>
+  </url>
+  <url>
+    <loc>https://drivemindbaku.com/az/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drivemindbaku.com/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://drivemindbaku.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://drivemindbaku.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drivemindbaku.com/"/>
+  </url>
+  <url>
+    <loc>https://drivemindbaku.com/ru/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://drivemindbaku.com/"/>
+    <xhtml:link rel="alternate" hreflang="az" href="https://drivemindbaku.com/az/"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://drivemindbaku.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://drivemindbaku.com/"/>
+  </url>
 </urlset>
