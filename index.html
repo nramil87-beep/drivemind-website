@@ -34,10 +34,52 @@ html{background:#080808}body{background:transparent;position:relative;isolation:
 .brand-logo{width:62px;height:50px;min-width:62px;object-fit:contain}@media(max-width:760px){.brand-logo{width:45px;height:40px;min-width:45px}}
 .brand{display:inline-flex;align-items:center;gap:9px;letter-spacing:.10em}.brand-logo{width:76px!important;min-width:76px!important;height:55px!important;object-fit:contain;display:block}.showcase-logo{width:min(100%,340px)!important;height:auto!important;aspect-ratio:840/500;object-fit:contain}.mark{background:radial-gradient(circle,#c9a45c15,transparent 68%)}@media(max-width:760px){.brand{font-size:16px}.brand-logo{width:52px!important;min-width:52px!important;height:39px!important}}
 .experience-visual{min-height:440px;position:relative;overflow:hidden;border:1px solid #85652f;background:linear-gradient(90deg,rgba(6,7,9,.9) 0%,rgba(6,7,9,.5) 65%,rgba(6,7,9,.15)),url("hero-baku.jpg") center center/cover no-repeat,linear-gradient(135deg,#17130c,#383025 60%,#0a0a0a);box-shadow:0 20px 70px #0007}.experience-visual:after{content:"";position:absolute;inset:10px;border:1px solid #c9a45c40;pointer-events:none}.experience-overlay{position:absolute;inset:0;padding:42px;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:20px}.experience-kicker{font-size:11px;letter-spacing:.25em;color:#e4c88e;font-weight:bold}.experience-rule{width:54px;height:2px;background:#c9a45c}.experience-overlay strong{font-size:clamp(42px,5vw,70px);line-height:1.05;letter-spacing:-.04em;color:#fff;text-shadow:0 4px 20px #000b}.experience-overlay strong span{color:#e6bb62}.experience-overlay small{font-size:10px;letter-spacing:.18em;color:#e7dfce}@media(max-width:760px){.experience-visual{min-height:330px}.experience-overlay{padding:32px}.experience-overlay strong{font-size:52px}}
+
+/* DriveMind premium finishing */
+:root{--gold:#d7ae60;--line:#4c402c}
+body{font-family:Inter,"Segoe UI",Arial,sans-serif;letter-spacing:.005em}
+header{backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-bottom-color:#b894513b}
+.nav{height:84px}.brand{font-size:19px;letter-spacing:.075em}
+nav a{transition:color .2s}nav a:hover{color:#e5c581}
+select{border-radius:6px;border-color:#846e49;padding:9px 12px}
+.btn{border-radius:5px;box-shadow:0 7px 30px #0004;letter-spacing:.075em}
+.btn:not(.ghost){background:linear-gradient(115deg,#f2d28d,#c7963f);border-color:#e1b762}
+.hero{min-height:calc(100svh - 84px);position:relative}
+.hero:before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#0506087a,transparent 76%);z-index:0}
+.hero .wrap{padding-top:110px;padding-bottom:110px}
+.hero h1{font-weight:800;line-height:1.055;letter-spacing:-.055em;max-width:860px}
+.hero h1 .gold{color:#f0c778}
+.hero p{color:#e4dfd7;max-width:630px;line-height:1.8}
+.eyebrow{color:#e0bb72}
+.hero-signature{display:flex;gap:16px;align-items:center;margin-top:55px;color:#e6d8bd;font-size:11px;font-weight:700;letter-spacing:.18em}
+.hero-signature i{width:43px;height:1px;background:#d5a854}
+.section{padding:105px 0;scroll-margin-top:80px}
+.section h2{max-width:900px}
+.lead{line-height:1.8}
+.tile{border-radius:10px;padding:34px;min-height:240px;background:linear-gradient(155deg,#1b1916e8,#0c0d0ee0);border-color:#b9944d42;box-shadow:0 18px 45px #0003}
+.tile small{font-weight:700}
+.tile h3{font-size:23px}
+.steps{border:1px solid #b9944d38;gap:1px;border-radius:10px;overflow:hidden}
+.step{padding:30px 20px;background:#131211e8}
+.step b{font-size:25px;font-weight:500}
+.step h3{margin:18px 0 8px}
+.experience-visual{border-radius:12px}
+.price-card{border-radius:12px;background:linear-gradient(145deg,#1d1a16f0,#101112ed);padding:35px;box-shadow:0 18px 45px #0005}
+.price-card.featured{box-shadow:0 0 0 1px #c9a45c80,0 16px 55px #c9a45c10}
+.price-card .amount{color:#f1c879}
+.price-note{border-left:2px solid #c9a45c;padding-left:18px;max-width:800px;line-height:1.8}
+.contact{padding:110px 0}
+.contact h2{margin-left:auto;margin-right:auto}
+.contact .btn{padding:17px 28px}
+.foot{border-top:1px solid #c9a45c40}
+.premium-divider{display:flex;align-items:center;gap:20px;color:#e1bd7a;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;padding:23px 0;border-top:1px solid #c9a45c50;border-bottom:1px solid #c9a45c50;background:#080808d9}
+.premium-divider .wrap{display:flex;align-items:center;justify-content:center;gap:25px;flex-wrap:wrap}
+.premium-divider .dot{height:4px;width:4px;border-radius:50%;background:#e1bd7a}
+@media(max-width:760px){.nav{height:68px}.hero{min-height:calc(100svh - 68px)}.hero .wrap{padding:85px 0 85px}.hero h1{font-size:clamp(40px,10vw,62px)}.hero-signature{margin-top:40px;letter-spacing:.1em}.section{padding:70px 0}.tile{min-height:0;padding:28px}.step{padding:22px 16px}.premium-divider .wrap{gap:12px}.premium-divider{font-size:9px}.price-card{padding:27px}.contact{padding:75px 0}}
 </style></head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="#home"><img src="drivemind-logo.png?v=10" alt="DriveMind road D emblem" class="brand-logo">DRIVE<span class="gold">MIND</span></a><nav><a href="#concept" data-t="nav1">Концепция</a><a href="#method" data-t="nav2">Метод</a><a href="#format" data-t="nav3">Формат</a><a href="#pricing" data-t="nav5">Программы</a><a href="#contact" data-t="nav4">Контакты</a></nav><div class="tools"><select id="lang" aria-label="Language"><option value="ru">RU</option><option value="az">AZ</option><option value="en">EN</option></select><a class="btn" href="#contact" data-t="book">Записаться</a></div></div></header>
-<main id="home"><section class="hero"><div class="wrap"><div class="eyebrow" data-t="eyebrow">Премиальный формат водительского мышления · Баку</div><h1 data-t="title">Учись думать.<br><span class="gold">Не просто водить.</span></h1><p data-t="intro">Увидеть дорогу глазами опытного водителя. На индивидуальной демонстрационной поездке ты наблюдаешь, как профессионал оценивает обстановку, предугадывает риски и принимает решения.</p><div class="actions"><a class="btn" href="#contact" data-t="cta">Обсудить первую поездку ↗</a><a class="btn ghost" href="#method" data-t="more">Узнать метод</a></div></div></section>
+<main id="home"><section class="hero"><div class="wrap"><div class="eyebrow" data-t="eyebrow">Премиальный формат водительского мышления · Баку</div><h1 data-t="title">Учись думать.<br><span class="gold">Не просто водить.</span></h1><p data-t="intro">Увидеть дорогу глазами опытного водителя. На индивидуальной демонстрационной поездке ты наблюдаешь, как профессионал оценивает обстановку, предугадывает риски и принимает решения.</p><div class="actions"><a class="btn" href="#contact" data-t="cta">Обсудить первую поездку ↗</a><a class="btn ghost" href="#method" data-t="more">Узнать метод</a></div><div class="hero-signature"><i></i><span>SEE · PREDICT · DECIDE</span></div></div></section><div class="premium-divider"><div class="wrap"><span>DRIVEMIND</span><span class="dot"></span><span>BAKU</span><span class="dot"></span><span>LEARN TO THINK. NOT JUST TO DRIVE.</span></div></div>
 <section class="section" id="concept"><div class="wrap"><div class="eyebrow" data-t="ce">Идея DriveMind</div><h2 data-t="ct">Опытное вождение начинается <span class="gold">до манёвра.</span></h2><p class="lead" data-t="cp">Сильный водитель не просто реагирует на происходящее. Он наблюдает, связывает детали и заранее оценивает, что может случиться дальше.</p><div class="grid"><article class="tile"><small>01 / SEE</small><h3 data-t="s1">Замечать</h3><p data-t="sp1">Куда смотреть, какие сигналы замечать и как не терять общую картину дороги.</p></article><article class="tile"><small>02 / PREDICT</small><h3 data-t="s2">Предугадывать</h3><p data-t="sp2">Распознавать ранние признаки риска и возможное поведение других участников движения.</p></article><article class="tile"><small>03 / DECIDE</small><h3 data-t="s3">Принимать решения</h3><p data-t="sp3">Выбирать безопасное действие заранее, а не в последний момент.</p></article></div></div></section>
 <section class="section" id="method"><div class="wrap"><div class="eyebrow" data-t="me">Методика DriveMind</div><h2 data-t="mt">Пять уровней мышления водителя</h2><p class="lead" data-t="mp">Во время поездки я проговариваю ход анализа дорожной ситуации и показываю, как складывается безопасное решение.</p><div class="steps"><div class="step"><b>01</b><h3>Observation</h3><p data-t="q1">Что я вижу вокруг?</p></div><div class="step"><b>02</b><h3>Interpretation</h3><p data-t="q2">Что это может означать?</p></div><div class="step"><b>03</b><h3>Prediction</h3><p data-t="q3">Что может произойти дальше?</p></div><div class="step"><b>04</b><h3>Decision</h3><p data-t="q4">Какое действие безопаснее?</p></div><div class="step"><b>05</b><h3>Evaluation</h3><p data-t="q5">Что сработало и почему?</p></div></div></div></section>
 <section class="section" id="format"><div class="wrap split"><div><div class="eyebrow" data-t="fe">Как это работает</div><h2 data-t="ft">Ты наблюдаешь. Я объясняю. Ты учишься видеть.</h2><p class="lead" data-t="fp">Это индивидуальная демонстрационная поездка по городу. Ты находишься на пассажирском сиденье, а я веду автомобиль и комментирую свои наблюдения и решения.</p><ul class="list"><li data-t="f1">Персональный маршрут и разбор типичных дорожных ситуаций</li><li data-t="f2">Наблюдение за дистанцией, обзором, слепыми зонами и пространством</li><li data-t="f3">Особенности городского трафика Баку</li><li data-t="f4">Краткий итог и персональные рекомендации после поездки</li></ul></div><div class="experience-visual" aria-label="DriveMind Baku"><div class="experience-overlay"><span class="experience-kicker">DRIVEMIND / BAKU</span><div class="experience-rule"></div><strong>SEE.<br>PREDICT.<br><span>DECIDE.</span></strong><small>LEARN TO THINK. NOT JUST TO DRIVE.</small></div></div></div></section>
