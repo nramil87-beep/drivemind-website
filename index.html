@@ -5,6 +5,10 @@
 <meta name="theme-color" content="#080808"><meta name="description" content="DriveMind Baku — private passenger-seat demonstration rides in Baku. Learn to spot road risks, anticipate traffic and make safer decisions.">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://drivemindbaku.com/">
+<link rel="alternate" hreflang="en" href="https://drivemindbaku.com/">
+<link rel="alternate" hreflang="az" href="https://drivemindbaku.com/az/">
+<link rel="alternate" hreflang="ru" href="https://drivemindbaku.com/ru/">
+<link rel="alternate" hreflang="x-default" href="https://drivemindbaku.com/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="DriveMind Baku">
 <meta property="og:locale" content="en_US">
@@ -112,5 +116,5 @@ document.querySelector('meta[name="description"]').content=seo.description;
 document.querySelector('meta[property="og:description"]').content=seo.og;
 document.querySelector('meta[property="og:locale"]').content=seo.locale;
 document.querySelector('meta[name="twitter:description"]').content=seo.og;document.querySelectorAll('[data-t]').forEach(e=>{let v=T[l][e.dataset.t];if(v)e.innerHTML=v});document.title=l==='ru'?'DriveMind Baku — Учись думать. Не просто водить.':l==='az'?'DriveMind Baku — Düşünməyi öyrən. Sadəcə sürməyi yox.':'DriveMind Baku — Learn to think. Not just to drive.';document.querySelector('meta[property="og:title"]').content=document.title;document.querySelector('meta[name="twitter:title"]').content=document.title;}
-document.getElementById('lang').addEventListener('change',e=>setLang(e.target.value));document.getElementById('year').textContent=new Date().getFullYear();setLang('en');
+document.getElementById('lang').addEventListener('change',e=>{window.location.href=e.target.value==='en'?'/':'/'+e.target.value+'/';});document.getElementById('year').textContent=new Date().getFullYear();setLang('en');
 </script></body></html>
